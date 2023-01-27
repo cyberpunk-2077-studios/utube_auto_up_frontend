@@ -19,9 +19,9 @@
 
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
 
-        <template v-for="i in items" :key="i">
+        <!--<template v-for="i in items" :key="i">        
           <AlbumItem />
-        </template>   
+        </template>   -->
 
         <template v-for="i in items" :key="i">
           <AlbumItemVideo />
@@ -39,6 +39,7 @@
 </template>
 
 <script>
+/* eslint-disable */
 import AlbumItem from '@/components/AlbumItem.vue'
 import AlbumItemVideo from '@/components/AlbumItemVideo.vue'
 export default {
