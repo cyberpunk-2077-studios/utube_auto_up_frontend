@@ -8,7 +8,7 @@
             controls
             loop
             preload="auto"
-            width="299"
+            width="420"
             height="225"            
             data-setup="{}"
           >
